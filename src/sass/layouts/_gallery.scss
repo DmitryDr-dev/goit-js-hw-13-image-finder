@@ -1,0 +1,38 @@
+.gallery {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+.gallery-item {
+  // height: 300px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.img-wrap {
+  height: 270px;
+}
+
+.img-wrap > img {
+  object-fit: contain;
+}
+.stats {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  font-size: 15px;
+  justify-content: space-evenly;
+}
+
+.material-icons {
+  font-size: 15px;
+}
+
+.btn__load-more {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
